@@ -1,0 +1,171 @@
+/* Global */
+
+body {
+    background-color: #4A2A19;
+}
+
+#container{
+    background-color: white;
+    margin: 15px auto;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.heading_style{
+    text-shadow: 2px 1px 2px #000;
+}
+
+.movie_post{
+    width: 50%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    color: hsla(11, 74%, 38%, 0.312);
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+
+/* Mobile styles */
+
+ nav {
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+ }
+
+ nav ul {
+    list-style-type: none;
+    padding: 0px;
+ }
+
+ nav li {
+    display:block;
+ }
+
+ nav li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    background-color: dimgray;
+ }
+
+ nav a:hover {
+    background-color: white;
+    color: black;
+ }
+
+ h1, h2, h3 {
+    text-align: center;
+    font-family: "Sixtyfour Convergence", sans-serif;
+      
+ }
+
+ main {
+    border: 2px solid #000;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+ }
+
+ main img{
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+ }
+
+ footer{
+    padding: 40px;
+    text-align: center;
+ }
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+
+    .movie_post {
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px #000;
+    }
+}
+
+/* Desktop styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px solid black;
+        border-radius: 20px;
+    }
+
+    nav {
+        padding: 2px;
+        margin: 0;
+    }
+
+    nav li a {
+        background-color: #29030396;
+    }
+
+    #nb {
+        display: flex;
+    }
+
+    #col1 {
+        border: 2px solid green;
+        width: 50%;
+        margin: 15px;
+    }
+
+    #col2 {
+        border: 2px solid hwb(322 1% 67%);
+        width: 50%;
+        margin: 15px;
+    }
+}
+.Rvideo-box
+{
+
+    width: 100%;
+    max-width: 1080px;
+    height: auto;
+}
+.Rvideo-box video
+{
+    width: 100%;
+    height: auto;
+}
